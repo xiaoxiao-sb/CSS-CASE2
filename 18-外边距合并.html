@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.one{
+				width: 200px;
+				height: 200px;
+				background: pink;
+				margin-bottom: 10px;
+			}
+			.two{
+				width: 200px;
+				height: 200px;
+				background: blue;
+				margin-top: 20px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			外边距合并问题: 垂直排列的两个块元素,分别给上面的盒子加向下的外边距和给下面的盒子加向上
+			的外边距,此时会造成外边距合并,当值相等的时候,间距就是这个值,当值不相等的时候,谁的值大
+			间距就是那个值
+			
+		-->
+		<div class="one"></div>
+		<div class="two"></div>
+	</body>
+</html>

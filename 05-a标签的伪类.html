@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			a{
+				font-size: 60px;
+			}
+			/*
+			 * 伪类的权重是10.
+			 * 当4种状态都存在的时候,要按照 lvha顺序
+			 * 
+			 */
+			
+			/*
+			 * 默认状态
+			 */
+			a:link{
+				color:red;
+			}
+			/*
+			 * 访问后
+			 */
+			a:visited{
+				color:green;
+			}
+			/*
+			 * 鼠标移入
+			 */
+			a:hover{
+				color:blue;
+			}
+			/*
+			 * 鼠标按下
+			 */
+			a:active{
+				color:yellow;
+			}
+			
+		</style>
+	</head>
+
+	<body>
+		<!--
+			a标签的伪类:
+		-->
+		<a href="##">超链接</a>
+	</body>
+
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.nav a{
+				/*
+				 * text-decoration: underline 下划线
+				 * 					line-through 中划线
+				 * 					overline  上划线
+				 *                  none   去掉线
+				 */
+				text-decoration:none  ;
+				width: 100px;
+				height: 30px;
+				line-height: 30px;
+				color:#fff;
+				background: red;
+				/*行内元素设置宽高不起作用,*/
+				display: inline-block;
+				text-align: center;
+				
+			}
+			.nav a:hover{
+				background: yellow;
+				color:blue;
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			1.有5个a标签,宽100 高30 默认去掉下划线
+			2.默认状态 字体颜色白色,背景色是红色,文本水平垂直居中
+			3.鼠标移入 字体变成蓝色,背景色变成黄色,加上下划线
+		-->
+		<div class="nav">
+			<a href="##">导航</a>
+			<a href="##">导航</a>
+			<a href="##">导航</a>
+			<a href="##">导航</a>
+			<a href="##">导航</a>
+		</div>
+	</body>
+</html>

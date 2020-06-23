@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			/*
+			 * 由于a标签自身设置了color,h标签自身设置了字号,所以在继承后,被自身的设置层叠了
+			 */
+			.box{
+				font-size: 20px;
+				color:red;
+			}
+			h1{
+				font-size: 20px;
+			}
+			a{
+				color:red;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<span>我是span</span>
+			<h1>标题</h1>
+			<a href="##">超链接</a>
+		</div>
+	</body>
+</html>

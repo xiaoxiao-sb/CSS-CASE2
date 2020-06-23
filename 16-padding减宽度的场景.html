@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.one{
+				width: 500px;
+				height: 200px;
+				background: pink;
+				
+			}
+			.two{
+				width: 500px;
+				height: 50px;
+				background: blue;
+				padding-left: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<!--
+			padding减宽度的场景: 当块元素没有设置固定宽度时,和父元素的宽度一样,此时给该元素加
+			水平方向的padding时,会自动进行计算,不需要人为减去padding撑出的宽度
+		-->
+		<div class="one">
+			<div class="two"></div>
+		</div>
+	</body>
+</html>
